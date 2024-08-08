@@ -1,0 +1,98 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    padding: 1px;
+}
+
+.info {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 0px 40px 0px
+}
+
+.info > h1 {
+    margin: 10px 0px 0px 0px;
+    color: #F47D27
+}
+
+.info>h4 {
+    margin: 2px 0px 0px 0px;
+}
+
+.info > a {
+    margin: 15px 0px 0px 0px;
+}
+
+.info > button {
+    margin: 20px 0px 0px 0px;
+}
+
+.info--pfp {
+    width: 100%;
+    height: 500px;
+}
+
+.info--email {
+    width: 60px;
+    height: 40px;
+}
+
+.info > button {
+    width: 250px;
+    height: 40px;
+}
+
+.about {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.about > p, .interests > p {
+    color: #4A4E74;
+    padding: 0px 50px 0px 50px;
+}
+
+.about > h1, .interests > h1 {
+    color: #2B283A;
+    padding: 0 0 0 50px;
+}
+
+.interests {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+}
+
+
+
+.footer {
+    background-color: #D5D4D8;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer--logo {
+    width: 40px;
+    padding: 10px;
+}
